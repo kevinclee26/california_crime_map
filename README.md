@@ -11,11 +11,11 @@ This repository demonstrates:
 	* Reading from a csv
 	* Merging data from data acquired externally
 	* Writing to a SQLite database
-* index.html
+* `index.html`
 	* Using separate JavaScript files to render different visualizations - this might be useful for collaborating
-* app.py - two end points, which include: 
+* `app.py` - two end points, which include: 
 	* `/data` endpoint that reads from a local SQLite database and returning a jsonified result
 	* `/` endpoint that returns the rendered `index.html`
-* bar.js
+* `bar.js`
 	* fetch data from `/data` endpoint and various data manipulation for Plotly to consume
-* logic.js - map with Leaflet
+* `logic.js` - map with Leaflet
